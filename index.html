@@ -6,118 +6,145 @@
     <style>
         body { 
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-            line-height: 1.4; 
-            max-width: 900px; 
+            line-height: 1.6; 
+            max-width: 950px; 
             margin: auto; 
             padding: 20px; 
-            color: #333; 
-            background-color: #f0f2f5;
-            font-size: 15px;
+            color: #e0e0e0; /* Light text for dark background */
+            background-color: #121212; /* Darkest background */
+            font-size: 16px;
         }
         .content-box {
-            background-color: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background-color: #1e272e; /* Dark slate box */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
         }
-        .header-section {
+        .side-layout {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
-            align-items: flex-start;
+            gap: 30px;
             margin-bottom: 20px;
         }
         .flyer-img {
-            flex: 1 1 250px;
-            max-width: 300px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            flex: 1 1 300px;
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            object-fit: contain;
         }
-        .intro-text {
-            flex: 2 1 300px;
+        .main-text {
+            flex: 2 1 400px;
         }
-        h1, h3 { color: #1a2a3a; margin: 10px 0; }
+        h1, h3 { color: #ffffff; border-bottom: 1px solid #485460; padding-bottom: 10px; }
         .btn { 
             display: inline-block; 
-            padding: 8px 16px; 
-            background: #1a2a3a; 
-            color: white !important; 
+            padding: 12px 24px; 
+            background: #ffffff; 
+            color: #1e272e !important; 
             text-decoration: none; 
-            border-radius: 20px; 
+            border-radius: 30px; 
             margin: 5px; 
             font-weight: bold;
-            font-size: 13px;
         }
         .quote { 
-            background: #f8f9fa; 
-            border-left: 4px solid #1a2a3a; 
-            padding: 12px; 
-            margin: 15px 0; 
+            background: #2f3640; 
+            border-left: 5px solid #dcdde1; 
+            padding: 20px; 
+            margin: 25px 0; 
             font-style: italic;
-            font-size: 14px;
         }
-        hr { margin: 30px 0; border: 0; border-top: 1px solid #ddd; }
-        a { color: #1a2a3a; text-decoration: underline; }
+        .bottom-img {
+            display: block;
+            margin: 30px auto;
+            max-width: 80%;
+            border-radius: 10px;
+        }
+        hr { margin: 50px 0; border: 0; border-top: 1px solid #485460; }
+        a { color: #81ecec; }
+        b { color: #ffffff; }
     </style>
 </head>
 <body>
 
 <div class="content-box">
-    <div style="text-align: center; margin-bottom: 20px;">
+    <div style="text-align: center; margin-bottom: 30px;">
         <a href="#english" class="btn">🇬🇧 English</a>
         <a href="#dutch" class="btn">🇳🇱 Nederlands</a>
     </div>
 
     <div id="english">
         <h1>Learn Drums with Punku 🥁</h1>
-        <div class="header-section">
-            <img src="PunkuFlyer.jpeg" alt="Punku Drum Flyer" class="flyer-img">
-            <div class="intro-text">
+        
+        <div class="side-layout">
+            <img src="PunkuFlyer.jpeg" alt="Punku Flyer" class="flyer-img">
+            <div class="main-text">
                 <p>Hiiiii.... So, you are curious about the drums. Well, you've just scanned the right QR code. HAHAHA... It seems like such a fun instrument and after playing it for many years I can tell you that it is even more fun than it looks.</p>
                 <p>Well, I'm <b>Punku</b>, musician/drummer from Nepal currently based in Maastricht. I have always been fascinated by music and drums. The endless exploration of sounds and rhythms has been quite fulfilling to me and I am here to share this joy with you.</p>
-                <p>Whatever your goal—pro, fun, or just a hobby—I am here to help you become the musician you want. I balance <b>fun musical challenges</b> with <b>various techniques</b> and theory to ensure you enjoy your time behind the drums.</p>
+                <p>You want to become a professional drummer? Wanna play for fun (because yes, it is a lot of fun)? Wanna pick it up as a hobby? Wanna just try it? Whatever it is, I am here to help you become the musician you want.</p>
             </div>
         </div>
 
-        <h3><u>About the Lessons</u></h3>
-        <p>Lessons take place at <b>Conservatorium Maastricht</b>, your house, or online. Languages: <b>English, Hindi, or Nepali</b>. 
-        <br>Rates: 30m - <b>18€</b> | 45m - <b>22€</b> | 60m - <b>30€</b>. Usually <b>1 lesson/week</b>.</p>
+        <p>In order to achieve this, I like to make sure the lessons have a good balance between <b>fun personal musical challenges</b> and the <b>various techniques</b> (and bits of theory if needed) that will help you enjoy the most your time behind the drums.</p>
+
+        <h3><u>About the Lessons:</u></h3>
+        <p>The lessons can take place either at the school where I am studying (<b>Conservatorium Maastricht</b>) or your house, or we can even alternate! That way you get used to playing different drums (more drums = more fun). Also, it is possible to have online lessons. And if you still don't have your instrument that is not a problem, music always finds its way!</p>
+
+        <p>The lessons can be taught in <b>English, Hindi or Nepali</b> (might throw off some random Dutch words).</p>
+        
+        <p>The duration of a lesson can range from 30 mins - <b>18 euros</b>, 45 mins - <b>22 euros</b> or 60 mins - <b>30 euros</b>. There will be <b>1 lesson/week</b> (can be more if needed).</p>
 
         <div class="quote">
-            I believe music education should be affordable. If you are a struggling student or have limited funds, we can <b>negotiate prices</b> or do buddy classes in pairs.
+            I also believe that music education should be accessible and affordable to everyone. So, if you really want to learn the instrument (doesn't matter for what purpose) but don't have enough funds for it or are a struggling student (like me), we can also <b>negotiate the prices</b> (for people who need it) or even do classes in pairs with a buddy.
         </div>
 
-        <h3><u>About me</u></h3>
-        <p>I am studying <b>Jazz Drums</b> at the <b>Conservatorium Maastricht</b> (NI-ZUYD Excellence Scholarship). I previously taught at Kathmandu Jazz Conservatory and Premier International School in Nepal. I've performed globally in the UK, Chile, Germany, Dubai, and Thailand.</p>
+        <h3><u>About me:</u></h3>
+        <p>Currently I am studying <b>Jazz Drums</b> at the <b>Conservatorium Maastricht</b> where I was offered NI-ZUYD Excellence Scholarship. Before moving to the Netherlands, I studied 2 years jazz diploma from Kathmandu Jazz Conservatory and was immediately offered to teach in the same school. Besides, I was also teaching school kids in Premier International IB Continuum School, Nepal and also taking private students. Apart from teaching, I also have gained handful of experience playing with people from different parts of the world like the UK, Chile, Germany, Brazil, Spain, etc. and performed all over Nepal and also outside Nepal like Dubai, Thailand, Abu Dhabi and now the Netherlands.</p>
 
-        <p>WhatsApp: <b>+31617248547</b> | Instagram: <a href="https://www.instagram.com/_punku">_punku</a> | YouTube: <a href="https://www.youtube.com/@punku5478/featured">Punku YouTube</a></p>
+        <p>If you want to know anything else from me, feel free to WhatsApp me at <b>+31617248547</b>. I'll do my best to be able to help you!</p>
+        
+        <p>Also, if you're interested to see my musical journey, I 'sometimes' post videos in my -</p>
+        <p><b>Instagram:</b> <a href="https://www.instagram.com/_punku">_punku</a> | <b>YouTube:</b> <a href="https://www.youtube.com/@punku5478/featured">Punku Channel</a></p>
+
+        <img src="punku1.jpeg" alt="Punku playing" class="bottom-img">
     </div>
 
     <hr>
 
     <div id="dutch">
         <h1>Drumles met Punku 🥁</h1>
-        <div class="header-section">
-            <img src="PunkuFlyer.jpeg" alt="Punku Drum Flyer" class="flyer-img">
-            <div class="intro-text">
+
+        <div class="side-layout">
+            <img src="PunkuFlyer.jpeg" alt="Punku Flyer" class="flyer-img">
+            <div class="main-text">
                 <p>Hiiiii.... Dus je bent benieuwd naar de drums. Nou, je hebt de juiste QR-code gescand. HAHAHA... Het lijkt zo'n leuk instrument en na vele jaren spelen kan ik je vertellen dat het nog leuker is dan het eruit ziet.</p>
                 <p>Nou, ik ben <b>Punku</b>, muzikant/drummer uit Nepal en momenteel gevestigd in Maastricht. Ik ben altijd gefascineerd geweest door muziek en drums. De eindeloze verkenning van klanken en ritmes geeft me veel voldoening en ik ben hier om deze vreugde met jou te delen.</p>
-                <p>Wat je doel ook is—professioneel, voor je plezier of gewoon als hobby—ik ben hier om je te helpen. Ik zorg voor een balans tussen <b>leuke muzikale uitdagingen</b> en <b>technieken</b> zodat je optimaal geniet van je tijd achter de drums.</p>
+                <p>Wil je een professionele drummer worden? Wil je voor je plezier spelen (want ja, het is heel erg leuk)? Wil je het als hobby oppakken? Wil je het gewoon eens proberen? Wat het ook is, ik ben hier om je te helpen de muzikant te worden die je wilt zijn.</p>
             </div>
         </div>
 
-        <h3><u>Over de Lessen</u></h3>
-        <p>Lessen vinden plaats bij het <b>Conservatorium Maastricht</b>, bij jou thuis of online. Talen: <b>Engels, Hindi of Nepalees</b>.
-        <br>Tarieven: 30m - <b>18€</b> | 45m - <b>22€</b> | 60m - <b>30€</b>. Meestal <b>1 les per week</b>.</p>
+        <p>Om dit te bereiken, zorg ik ervoor dat de lessen een goede balans hebben tussen <b>leuke persoonlijke muzikale uitdagingen</b> en de <b>verschillende technieken</b> (en een beetje theorie indien nodig) die je helpen om optimaal te genieten van je tijd achter de drums.</p>
+
+        <h3><u>Over de Lessen:</u></h3>
+        <p>De lessen kunnen plaatsvinden op de school waar ik studeer (<b>Conservatorium Maastricht</b>), bij jou thuis, of we kunnen afwisselen! Op die manier wen je aan het spelen op verschillende drums (meer drums = meer plezier). Ook is het mogelijk om online lessen te volgen. En als je nog geen eigen instrument hebt, is dat geen probleem: muziek vindt altijd wel een weg!</p>
+
+        <p>De lessen kunnen worden gegeven in het <b>Engels, Hindi of Nepalees</b> (ik kan er wat willekeurige Nederlandse woorden doorheen gooien).</p>
+        
+        <p>De duur van een les kan variëren van 30 min - <b>18 euro</b>, 45 min - <b>22 euro</b> of 60 min - <b>30 euro</b>. Er is <b>1 les per week</b> (meer is mogelijk indien nodig).</p>
 
         <div class="quote">
-            Ik vind dat muziekonderwijs betaalbaar moet zijn. Als je een student bent met een beperkt budget, kunnen we <b>over de prijs onderhandelen</b> of lessen in tweetallen doen.
+            Ik vind ook dat muziekonderwijs voor iedereen toegankelijk en betaalbaar moet zijn. Dus als je het instrument echt wilt leren (het maakt niet uit voor welk doel) maar je hebt niet genoeg geld of je bent een ploeterende student (net als ik), dan kunnen we ook <b>over de prijzen onderhandelen</b> (voor mensen die het nodig hebben) of zelfs lessen in tweetallen doen met een maatje.
         </div>
 
-        <h3><u>Over mij</u></h3>
-        <p>Ik studeer <b>Jazz Drums</b> aan het <b>Conservatorium Maastricht</b> (NI-ZUYD Excellence Scholarship). Eerder gaf ik les aan het Kathmandu Jazz Conservatory en de Premier International School in Nepal. Ik heb wereldwijd opgetreden, o.a. in het VK, Chili, Duitsland, Dubai en Thailand.</p>
+        <h3><u>Over mij:</u></h3>
+        <p>Momenteel studeer ik <b>Jazz Drums</b> aan het <b>Conservatorium Maastricht</b>, waar ik een NI-ZUYD Excellence Scholarship aangeboden kreeg. Voordat ik naar Nederland verhuisde, volgde ik een 2-jarige jazzopleiding aan het Kathmandu Jazz Conservatory en kreeg ik onmiddellijk een baan aangeboden om les te geven op dezelfde school. Daarnaast gaf ik les aan schoolkinderen op de Premier International IB Continuum School in Nepal en gaf ik privéles. Naast het lesgeven heb ik ook de nodige ervaring opgedaan door te spelen met mensen uit verschillende delen van de wereld, zoals het VK, Chili, Duitsland, Brazilië, Spanje, enz. Ik heb door heel Nepal opgetreden en ook daarbuiten, zoals in Dubai, Thailand, Abu Dhabi en nu in Nederland.</p>
 
-        <p>WhatsApp: <b>+31617248547</b> | Instagram: <a href="https://www.instagram.com/_punku">_punku</a> | YouTube: <a href="https://www.youtube.com/@punku5478/featured">Punku YouTube</a></p>
+        <p>Als je nog iets van me wilt weten, stuur me dan gerust een WhatsApp-bericht op <b>+31617248547</b>. Ik zal mijn best doen om je te helpen!</p>
+
+        <p>Ook als je geïnteresseerd bent om mijn muzikale reis te zien, post ik 'soms' video's op mijn -</p>
+        <p><b>Instagram:</b> <a href="https://www.instagram.com/_punku">_punku</a> | <b>YouTube:</b> <a href="https://www.youtube.com/@punku5478/featured">Punku Channel</a></p>
+
+        <img src="punku1.jpeg" alt="Punku playing" class="bottom-img">
     </div>
 </div>
 
